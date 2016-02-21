@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E35114C91C7A060A00E0CFAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E35114C81C7A060A00E0CFAE /* main.m */; };
+		E35114CC1C7A060A00E0CFAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E35114CB1C7A060A00E0CFAE /* AppDelegate.m */; };
+		E35114CF1C7A060A00E0CFAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35114CE1C7A060A00E0CFAE /* ViewController.m */; };
+		E35114D21C7A060A00E0CFAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35114D01C7A060A00E0CFAE /* Main.storyboard */; };
+		E35114D41C7A060A00E0CFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35114D31C7A060A00E0CFAE /* Assets.xcassets */; };
+		E35114D71C7A060A00E0CFAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35114D51C7A060A00E0CFAE /* LaunchScreen.storyboard */; };
+		E35114E21C7A060A00E0CFAE /* iCloudBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E35114E11C7A060A00E0CFAE /* iCloudBookTests.m */; };
+		E35114ED1C7A060A00E0CFAE /* iCloudBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E35114EC1C7A060A00E0CFAE /* iCloudBookUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E35114DE1C7A060A00E0CFAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E35114BC1C7A060A00E0CFAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35114C31C7A060A00E0CFAE;
+			remoteInfo = iCloudBook;
+		};
+		E35114E91C7A060A00E0CFAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E35114BC1C7A060A00E0CFAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35114C31C7A060A00E0CFAE;
+			remoteInfo = iCloudBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E35114C41C7A060A00E0CFAE /* iCloudBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCloudBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35114C81C7A060A00E0CFAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E35114CA1C7A060A00E0CFAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E35114CB1C7A060A00E0CFAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E35114CD1C7A060A00E0CFAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E35114CE1C7A060A00E0CFAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E35114D11C7A060A00E0CFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E35114D31C7A060A00E0CFAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E35114D61C7A060A00E0CFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E35114D81C7A060A00E0CFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35114DD1C7A060A00E0CFAE /* iCloudBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCloudBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35114E11C7A060A00E0CFAE /* iCloudBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCloudBookTests.m; sourceTree = "<group>"; };
+		E35114E31C7A060A00E0CFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35114E81C7A060A00E0CFAE /* iCloudBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCloudBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35114EC1C7A060A00E0CFAE /* iCloudBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCloudBookUITests.m; sourceTree = "<group>"; };
+		E35114EE1C7A060A00E0CFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E35114C11C7A060A00E0CFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35114DA1C7A060A00E0CFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35114E51C7A060A00E0CFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E35114BB1C7A060A00E0CFAE = {
+			isa = PBXGroup;
+			children = (
+				E35114C61C7A060A00E0CFAE /* iCloudBook */,
+				E35114E01C7A060A00E0CFAE /* iCloudBookTests */,
+				E35114EB1C7A060A00E0CFAE /* iCloudBookUITests */,
+				E35114C51C7A060A00E0CFAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E35114C51C7A060A00E0CFAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E35114C41C7A060A00E0CFAE /* iCloudBook.app */,
+				E35114DD1C7A060A00E0CFAE /* iCloudBookTests.xctest */,
+				E35114E81C7A060A00E0CFAE /* iCloudBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E35114C61C7A060A00E0CFAE /* iCloudBook */ = {
+			isa = PBXGroup;
+			children = (
+				E35114CA1C7A060A00E0CFAE /* AppDelegate.h */,
+				E35114CB1C7A060A00E0CFAE /* AppDelegate.m */,
+				E35114CD1C7A060A00E0CFAE /* ViewController.h */,
+				E35114CE1C7A060A00E0CFAE /* ViewController.m */,
+				E35114D01C7A060A00E0CFAE /* Main.storyboard */,
+				E35114D31C7A060A00E0CFAE /* Assets.xcassets */,
+				E35114D51C7A060A00E0CFAE /* LaunchScreen.storyboard */,
+				E35114D81C7A060A00E0CFAE /* Info.plist */,
+				E35114C71C7A060A00E0CFAE /* Supporting Files */,
+			);
+			path = iCloudBook;
+			sourceTree = "<group>";
+		};
+		E35114C71C7A060A00E0CFAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E35114C81C7A060A00E0CFAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E35114E01C7A060A00E0CFAE /* iCloudBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				E35114E11C7A060A00E0CFAE /* iCloudBookTests.m */,
+				E35114E31C7A060A00E0CFAE /* Info.plist */,
+			);
+			path = iCloudBookTests;
+			sourceTree = "<group>";
+		};
+		E35114EB1C7A060A00E0CFAE /* iCloudBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E35114EC1C7A060A00E0CFAE /* iCloudBookUITests.m */,
+				E35114EE1C7A060A00E0CFAE /* Info.plist */,
+			);
+			path = iCloudBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E35114C31C7A060A00E0CFAE /* iCloudBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35114F11C7A060A00E0CFAE /* Build configuration list for PBXNativeTarget "iCloudBook" */;
+			buildPhases = (
+				E35114C01C7A060A00E0CFAE /* Sources */,
+				E35114C11C7A060A00E0CFAE /* Frameworks */,
+				E35114C21C7A060A00E0CFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCloudBook;
+			productName = iCloudBook;
+			productReference = E35114C41C7A060A00E0CFAE /* iCloudBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E35114DC1C7A060A00E0CFAE /* iCloudBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35114F41C7A060A00E0CFAE /* Build configuration list for PBXNativeTarget "iCloudBookTests" */;
+			buildPhases = (
+				E35114D91C7A060A00E0CFAE /* Sources */,
+				E35114DA1C7A060A00E0CFAE /* Frameworks */,
+				E35114DB1C7A060A00E0CFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E35114DF1C7A060A00E0CFAE /* PBXTargetDependency */,
+			);
+			name = iCloudBookTests;
+			productName = iCloudBookTests;
+			productReference = E35114DD1C7A060A00E0CFAE /* iCloudBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E35114E71C7A060A00E0CFAE /* iCloudBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35114F71C7A060A00E0CFAE /* Build configuration list for PBXNativeTarget "iCloudBookUITests" */;
+			buildPhases = (
+				E35114E41C7A060A00E0CFAE /* Sources */,
+				E35114E51C7A060A00E0CFAE /* Frameworks */,
+				E35114E61C7A060A00E0CFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E35114EA1C7A060A00E0CFAE /* PBXTargetDependency */,
+			);
+			name = iCloudBookUITests;
+			productName = iCloudBookUITests;
+			productReference = E35114E81C7A060A00E0CFAE /* iCloudBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E35114BC1C7A060A00E0CFAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MasterFan;
+				TargetAttributes = {
+					E35114C31C7A060A00E0CFAE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 46V627742S;
+					};
+					E35114DC1C7A060A00E0CFAE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 46V627742S;
+						TestTargetID = E35114C31C7A060A00E0CFAE;
+					};
+					E35114E71C7A060A00E0CFAE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 46V627742S;
+						TestTargetID = E35114C31C7A060A00E0CFAE;
+					};
+				};
+			};
+			buildConfigurationList = E35114BF1C7A060A00E0CFAE /* Build configuration list for PBXProject "iCloudBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E35114BB1C7A060A00E0CFAE;
+			productRefGroup = E35114C51C7A060A00E0CFAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E35114C31C7A060A00E0CFAE /* iCloudBook */,
+				E35114DC1C7A060A00E0CFAE /* iCloudBookTests */,
+				E35114E71C7A060A00E0CFAE /* iCloudBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E35114C21C7A060A00E0CFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35114D71C7A060A00E0CFAE /* LaunchScreen.storyboard in Resources */,
+				E35114D41C7A060A00E0CFAE /* Assets.xcassets in Resources */,
+				E35114D21C7A060A00E0CFAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35114DB1C7A060A00E0CFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35114E61C7A060A00E0CFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E35114C01C7A060A00E0CFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35114CF1C7A060A00E0CFAE /* ViewController.m in Sources */,
+				E35114CC1C7A060A00E0CFAE /* AppDelegate.m in Sources */,
+				E35114C91C7A060A00E0CFAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35114D91C7A060A00E0CFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35114E21C7A060A00E0CFAE /* iCloudBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35114E41C7A060A00E0CFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35114ED1C7A060A00E0CFAE /* iCloudBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E35114DF1C7A060A00E0CFAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E35114C31C7A060A00E0CFAE /* iCloudBook */;
+			targetProxy = E35114DE1C7A060A00E0CFAE /* PBXContainerItemProxy */;
+		};
+		E35114EA1C7A060A00E0CFAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E35114C31C7A060A00E0CFAE /* iCloudBook */;
+			targetProxy = E35114E91C7A060A00E0CFAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E35114D01C7A060A00E0CFAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35114D11C7A060A00E0CFAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E35114D51C7A060A00E0CFAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35114D61C7A060A00E0CFAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E35114EF1C7A060A00E0CFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E35114F01C7A060A00E0CFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E35114F21C7A060A00E0CFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iCloudBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.masterfan.iCloudBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E35114F31C7A060A00E0CFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iCloudBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.masterfan.iCloudBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E35114F51C7A060A00E0CFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iCloudBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.masterfan.iCloudBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCloudBook.app/iCloudBook";
+			};
+			name = Debug;
+		};
+		E35114F61C7A060A00E0CFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iCloudBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.masterfan.iCloudBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCloudBook.app/iCloudBook";
+			};
+			name = Release;
+		};
+		E35114F81C7A060A00E0CFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iCloudBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.masterfan.iCloudBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iCloudBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E35114F91C7A060A00E0CFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iCloudBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.masterfan.iCloudBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iCloudBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E35114BF1C7A060A00E0CFAE /* Build configuration list for PBXProject "iCloudBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35114EF1C7A060A00E0CFAE /* Debug */,
+				E35114F01C7A060A00E0CFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E35114F11C7A060A00E0CFAE /* Build configuration list for PBXNativeTarget "iCloudBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35114F21C7A060A00E0CFAE /* Debug */,
+				E35114F31C7A060A00E0CFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E35114F41C7A060A00E0CFAE /* Build configuration list for PBXNativeTarget "iCloudBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35114F51C7A060A00E0CFAE /* Debug */,
+				E35114F61C7A060A00E0CFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E35114F71C7A060A00E0CFAE /* Build configuration list for PBXNativeTarget "iCloudBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35114F81C7A060A00E0CFAE /* Debug */,
+				E35114F91C7A060A00E0CFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E35114BC1C7A060A00E0CFAE /* Project object */;
+}
