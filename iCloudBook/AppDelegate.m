@@ -17,6 +17,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    HomeTabViewController* home = [[HomeTabViewController alloc] init];
+    LeftViewController * leftMenu = [[LeftViewController alloc] init];
+    RESideMenu* sideMenu = [[RESideMenu alloc] initWithContentViewController:home leftMenuViewController:leftMenu rightMenuViewController:nil];
+    sideMenu.mainController = home;
+    sideMenu.menuPreferredStatusBarStyle = 1;
+    sideMenu.delegate = self;
+    sideMenu.contentViewShadowColor = [UIColor blackColor];
+    sideMenu.contentViewShadowOffset = CGSizeMake(0,0);
+    sideMenu.contentViewShadowOpacity=0.6;
+    sideMenu.contentViewShadowRadius =12;
+    sideMenu.contentViewShadowEnabled= YES;
+    
+    sideMenu.scaleContentView = NO;
+    
+    self.window.rootViewController = sideMenu;
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

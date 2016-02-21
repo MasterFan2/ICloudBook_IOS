@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		786E5637C2381891FEB3644C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3998E3D4BB8849C71212FE56 /* libPods.a */; };
 		E35114C91C7A060A00E0CFAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E35114C81C7A060A00E0CFAE /* main.m */; };
 		E35114CC1C7A060A00E0CFAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E35114CB1C7A060A00E0CFAE /* AppDelegate.m */; };
 		E35114CF1C7A060A00E0CFAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35114CE1C7A060A00E0CFAE /* ViewController.m */; };
@@ -15,6 +16,23 @@
 		E35114D71C7A060A00E0CFAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35114D51C7A060A00E0CFAE /* LaunchScreen.storyboard */; };
 		E35114E21C7A060A00E0CFAE /* iCloudBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E35114E11C7A060A00E0CFAE /* iCloudBookTests.m */; };
 		E35114ED1C7A060A00E0CFAE /* iCloudBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E35114EC1C7A060A00E0CFAE /* iCloudBookUITests.m */; };
+		E3ED77141C7A0A1E005347E9 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED770F1C7A0A1E005347E9 /* RECommonFunctions.m */; };
+		E3ED77151C7A0A1E005347E9 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED77111C7A0A1E005347E9 /* RESideMenu.m */; };
+		E3ED77161C7A0A1E005347E9 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED77131C7A0A1E005347E9 /* UIViewController+RESideMenu.m */; };
+		E3ED771E1C7A0ABE005347E9 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED771C1C7A0ABE005347E9 /* PersonalViewController.m */; };
+		E3ED771F1C7A0ABE005347E9 /* PersonalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3ED771D1C7A0ABE005347E9 /* PersonalViewController.xib */; };
+		E3ED77231C7A0ACE005347E9 /* CoursewareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED77211C7A0ACE005347E9 /* CoursewareViewController.m */; };
+		E3ED77241C7A0ACE005347E9 /* CoursewareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3ED77221C7A0ACE005347E9 /* CoursewareViewController.xib */; };
+		E3ED77281C7A0AE0005347E9 /* IndexHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED77261C7A0AE0005347E9 /* IndexHomeViewController.m */; };
+		E3ED77291C7A0AE0005347E9 /* IndexHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3ED77271C7A0AE0005347E9 /* IndexHomeViewController.xib */; };
+		E3ED772D1C7A0AF9005347E9 /* ManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED772B1C7A0AF9005347E9 /* ManagementViewController.m */; };
+		E3ED772E1C7A0AF9005347E9 /* ManagementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3ED772C1C7A0AF9005347E9 /* ManagementViewController.xib */; };
+		E3ED77311C7A0B35005347E9 /* HomeTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED77301C7A0B35005347E9 /* HomeTabViewController.m */; };
+		E3ED77351C7A0C75005347E9 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED77341C7A0C75005347E9 /* LeftViewController.m */; };
+		E3ED773B1C7A0CAE005347E9 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED77391C7A0CAE005347E9 /* SettingsViewController.m */; };
+		E3ED773C1C7A0CAE005347E9 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3ED773A1C7A0CAE005347E9 /* SettingsViewController.xib */; };
+		E3ED77401C7A0CBC005347E9 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ED773E1C7A0CBC005347E9 /* AboutViewController.m */; };
+		E3ED77411C7A0CBC005347E9 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3ED773F1C7A0CBC005347E9 /* AboutViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D974232BF2E0BF6DBC1B4EC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3998E3D4BB8849C71212FE56 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CECA767F26644BA9BB1DDBC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E35114C41C7A060A00E0CFAE /* iCloudBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCloudBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35114C81C7A060A00E0CFAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E35114CA1C7A060A00E0CFAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +72,34 @@
 		E35114E81C7A060A00E0CFAE /* iCloudBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCloudBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35114EC1C7A060A00E0CFAE /* iCloudBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCloudBookUITests.m; sourceTree = "<group>"; };
 		E35114EE1C7A060A00E0CFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3ED770E1C7A0A1E005347E9 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		E3ED770F1C7A0A1E005347E9 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		E3ED77101C7A0A1E005347E9 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		E3ED77111C7A0A1E005347E9 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		E3ED77121C7A0A1E005347E9 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		E3ED77131C7A0A1E005347E9 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		E3ED771B1C7A0ABE005347E9 /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		E3ED771C1C7A0ABE005347E9 /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		E3ED771D1C7A0ABE005347E9 /* PersonalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalViewController.xib; sourceTree = "<group>"; };
+		E3ED77201C7A0ACE005347E9 /* CoursewareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursewareViewController.h; sourceTree = "<group>"; };
+		E3ED77211C7A0ACE005347E9 /* CoursewareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursewareViewController.m; sourceTree = "<group>"; };
+		E3ED77221C7A0ACE005347E9 /* CoursewareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoursewareViewController.xib; sourceTree = "<group>"; };
+		E3ED77251C7A0AE0005347E9 /* IndexHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexHomeViewController.h; sourceTree = "<group>"; };
+		E3ED77261C7A0AE0005347E9 /* IndexHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexHomeViewController.m; sourceTree = "<group>"; };
+		E3ED77271C7A0AE0005347E9 /* IndexHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndexHomeViewController.xib; sourceTree = "<group>"; };
+		E3ED772A1C7A0AF9005347E9 /* ManagementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagementViewController.h; sourceTree = "<group>"; };
+		E3ED772B1C7A0AF9005347E9 /* ManagementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagementViewController.m; sourceTree = "<group>"; };
+		E3ED772C1C7A0AF9005347E9 /* ManagementViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManagementViewController.xib; sourceTree = "<group>"; };
+		E3ED772F1C7A0B35005347E9 /* HomeTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTabViewController.h; sourceTree = "<group>"; };
+		E3ED77301C7A0B35005347E9 /* HomeTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTabViewController.m; sourceTree = "<group>"; };
+		E3ED77331C7A0C75005347E9 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		E3ED77341C7A0C75005347E9 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		E3ED77381C7A0CAE005347E9 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		E3ED77391C7A0CAE005347E9 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		E3ED773A1C7A0CAE005347E9 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		E3ED773D1C7A0CBC005347E9 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		E3ED773E1C7A0CBC005347E9 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		E3ED773F1C7A0CBC005347E9 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				786E5637C2381891FEB3644C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +128,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F234A2ACD481AEEE74FDF6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D974232BF2E0BF6DBC1B4EC /* Pods.debug.xcconfig */,
+				6CECA767F26644BA9BB1DDBC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6BE752833F2371A852946EBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3998E3D4BB8849C71212FE56 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E35114BB1C7A060A00E0CFAE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +152,8 @@
 				E35114E01C7A060A00E0CFAE /* iCloudBookTests */,
 				E35114EB1C7A060A00E0CFAE /* iCloudBookUITests */,
 				E35114C51C7A060A00E0CFAE /* Products */,
+				4F234A2ACD481AEEE74FDF6E /* Pods */,
+				6BE752833F2371A852946EBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +170,9 @@
 		E35114C61C7A060A00E0CFAE /* iCloudBook */ = {
 			isa = PBXGroup;
 			children = (
-				E35114CA1C7A060A00E0CFAE /* AppDelegate.h */,
-				E35114CB1C7A060A00E0CFAE /* AppDelegate.m */,
+				E3ED770C1C7A093F005347E9 /* HomeTab */,
+				E3ED770B1C7A0936005347E9 /* Splash */,
+				E3ED770A1C7A0922005347E9 /* Entry */,
 				E35114CD1C7A060A00E0CFAE /* ViewController.h */,
 				E35114CE1C7A060A00E0CFAE /* ViewController.m */,
 				E35114D01C7A060A00E0CFAE /* Main.storyboard */,
@@ -140,6 +210,121 @@
 			path = iCloudBookUITests;
 			sourceTree = "<group>";
 		};
+		E3ED770A1C7A0922005347E9 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				E35114CA1C7A060A00E0CFAE /* AppDelegate.h */,
+				E35114CB1C7A060A00E0CFAE /* AppDelegate.m */,
+			);
+			name = Entry;
+			sourceTree = "<group>";
+		};
+		E3ED770B1C7A0936005347E9 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
+		E3ED770C1C7A093F005347E9 /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				E3ED77321C7A0C44005347E9 /* LeftMenu */,
+				E3ED771A1C7A0A90005347E9 /* Management */,
+				E3ED77191C7A0A7A005347E9 /* IndexHome */,
+				E3ED77181C7A0A6F005347E9 /* Courseware */,
+				E3ED77171C7A0A66005347E9 /* Personal */,
+				E3ED770D1C7A094F005347E9 /* ResideMenu */,
+				E3ED772F1C7A0B35005347E9 /* HomeTabViewController.h */,
+				E3ED77301C7A0B35005347E9 /* HomeTabViewController.m */,
+			);
+			name = HomeTab;
+			sourceTree = "<group>";
+		};
+		E3ED770D1C7A094F005347E9 /* ResideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E3ED770E1C7A0A1E005347E9 /* RECommonFunctions.h */,
+				E3ED770F1C7A0A1E005347E9 /* RECommonFunctions.m */,
+				E3ED77101C7A0A1E005347E9 /* RESideMenu.h */,
+				E3ED77111C7A0A1E005347E9 /* RESideMenu.m */,
+				E3ED77121C7A0A1E005347E9 /* UIViewController+RESideMenu.h */,
+				E3ED77131C7A0A1E005347E9 /* UIViewController+RESideMenu.m */,
+			);
+			name = ResideMenu;
+			sourceTree = "<group>";
+		};
+		E3ED77171C7A0A66005347E9 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				E3ED771B1C7A0ABE005347E9 /* PersonalViewController.h */,
+				E3ED771C1C7A0ABE005347E9 /* PersonalViewController.m */,
+				E3ED771D1C7A0ABE005347E9 /* PersonalViewController.xib */,
+			);
+			name = Personal;
+			sourceTree = "<group>";
+		};
+		E3ED77181C7A0A6F005347E9 /* Courseware */ = {
+			isa = PBXGroup;
+			children = (
+				E3ED77201C7A0ACE005347E9 /* CoursewareViewController.h */,
+				E3ED77211C7A0ACE005347E9 /* CoursewareViewController.m */,
+				E3ED77221C7A0ACE005347E9 /* CoursewareViewController.xib */,
+			);
+			name = Courseware;
+			sourceTree = "<group>";
+		};
+		E3ED77191C7A0A7A005347E9 /* IndexHome */ = {
+			isa = PBXGroup;
+			children = (
+				E3ED77251C7A0AE0005347E9 /* IndexHomeViewController.h */,
+				E3ED77261C7A0AE0005347E9 /* IndexHomeViewController.m */,
+				E3ED77271C7A0AE0005347E9 /* IndexHomeViewController.xib */,
+			);
+			name = IndexHome;
+			sourceTree = "<group>";
+		};
+		E3ED771A1C7A0A90005347E9 /* Management */ = {
+			isa = PBXGroup;
+			children = (
+				E3ED772A1C7A0AF9005347E9 /* ManagementViewController.h */,
+				E3ED772B1C7A0AF9005347E9 /* ManagementViewController.m */,
+				E3ED772C1C7A0AF9005347E9 /* ManagementViewController.xib */,
+			);
+			name = Management;
+			sourceTree = "<group>";
+		};
+		E3ED77321C7A0C44005347E9 /* LeftMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E3ED77371C7A0C8B005347E9 /* Setting */,
+				E3ED77361C7A0C85005347E9 /* About */,
+				E3ED77331C7A0C75005347E9 /* LeftViewController.h */,
+				E3ED77341C7A0C75005347E9 /* LeftViewController.m */,
+			);
+			name = LeftMenu;
+			sourceTree = "<group>";
+		};
+		E3ED77361C7A0C85005347E9 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				E3ED773D1C7A0CBC005347E9 /* AboutViewController.h */,
+				E3ED773E1C7A0CBC005347E9 /* AboutViewController.m */,
+				E3ED773F1C7A0CBC005347E9 /* AboutViewController.xib */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		E3ED77371C7A0C8B005347E9 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				E3ED77381C7A0CAE005347E9 /* SettingsViewController.h */,
+				E3ED77391C7A0CAE005347E9 /* SettingsViewController.m */,
+				E3ED773A1C7A0CAE005347E9 /* SettingsViewController.xib */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +332,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E35114F11C7A060A00E0CFAE /* Build configuration list for PBXNativeTarget "iCloudBook" */;
 			buildPhases = (
+				F670D17480D85EF4CC191CF1 /* Check Pods Manifest.lock */,
 				E35114C01C7A060A00E0CFAE /* Sources */,
 				E35114C11C7A060A00E0CFAE /* Frameworks */,
 				E35114C21C7A060A00E0CFAE /* Resources */,
+				7534102CB827493BDBA7F6BD /* Embed Pods Frameworks */,
+				139CAAD9A02E66E94BAE55D9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,8 +434,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3ED77291C7A0AE0005347E9 /* IndexHomeViewController.xib in Resources */,
+				E3ED77241C7A0ACE005347E9 /* CoursewareViewController.xib in Resources */,
+				E3ED772E1C7A0AF9005347E9 /* ManagementViewController.xib in Resources */,
+				E3ED773C1C7A0CAE005347E9 /* SettingsViewController.xib in Resources */,
 				E35114D71C7A060A00E0CFAE /* LaunchScreen.storyboard in Resources */,
 				E35114D41C7A060A00E0CFAE /* Assets.xcassets in Resources */,
+				E3ED771F1C7A0ABE005347E9 /* PersonalViewController.xib in Resources */,
+				E3ED77411C7A0CBC005347E9 /* AboutViewController.xib in Resources */,
 				E35114D21C7A060A00E0CFAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,14 +462,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		139CAAD9A02E66E94BAE55D9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7534102CB827493BDBA7F6BD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F670D17480D85EF4CC191CF1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E35114C01C7A060A00E0CFAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E35114CF1C7A060A00E0CFAE /* ViewController.m in Sources */,
+				E3ED771E1C7A0ABE005347E9 /* PersonalViewController.m in Sources */,
+				E3ED77281C7A0AE0005347E9 /* IndexHomeViewController.m in Sources */,
+				E3ED772D1C7A0AF9005347E9 /* ManagementViewController.m in Sources */,
 				E35114CC1C7A060A00E0CFAE /* AppDelegate.m in Sources */,
 				E35114C91C7A060A00E0CFAE /* main.m in Sources */,
+				E3ED77231C7A0ACE005347E9 /* CoursewareViewController.m in Sources */,
+				E3ED77151C7A0A1E005347E9 /* RESideMenu.m in Sources */,
+				E3ED77141C7A0A1E005347E9 /* RECommonFunctions.m in Sources */,
+				E3ED77351C7A0C75005347E9 /* LeftViewController.m in Sources */,
+				E3ED77401C7A0CBC005347E9 /* AboutViewController.m in Sources */,
+				E3ED77311C7A0B35005347E9 /* HomeTabViewController.m in Sources */,
+				E3ED77161C7A0A1E005347E9 /* UIViewController+RESideMenu.m in Sources */,
+				E3ED773B1C7A0CAE005347E9 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +665,11 @@
 		};
 		E35114F21C7A060A00E0CFAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D974232BF2E0BF6DBC1B4EC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iCloudBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.masterfan.iCloudBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,9 +678,11 @@
 		};
 		E35114F31C7A060A00E0CFAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CECA767F26644BA9BB1DDBC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iCloudBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.masterfan.iCloudBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,6 +756,7 @@
 				E35114F31C7A060A00E0CFAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E35114F41C7A060A00E0CFAE /* Build configuration list for PBXNativeTarget "iCloudBookTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +765,7 @@
 				E35114F61C7A060A00E0CFAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E35114F71C7A060A00E0CFAE /* Build configuration list for PBXNativeTarget "iCloudBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +774,7 @@
 				E35114F91C7A060A00E0CFAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
